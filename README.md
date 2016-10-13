@@ -11,26 +11,30 @@ CircularIndicator for ViewPager.
 
 ## Usage
 
-Just Clone and Build.
+1. Include the library as local library project.
+    ```
+    compile 'com.yalantis:ucrop:2.2.0'
+    ```
 
-### Xml Layout
-```xml
-<com.github.hearsilent.circularindicator.CircularIndicator
-    android:id="@+id/indicator"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom"
-    android:animateLayoutChanges="true"
-    android:gravity="center"
-    android:orientation="horizontal"
-    android:padding="16dp"/>
-```
-### Java Code
-```java
-mAdapter = new PagerAdapter(getSupportFragmentManager());
-mViewPager.setAdapter(mAdapter);
-mCircularIndicator.setupWithViewPager(mViewPager);
-```
+2. Add CircularIndicator to Layout
+    ```xml
+    <com.github.hearsilent.circularindicator.CircularIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:animateLayoutChanges="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"/>
+    ```
+    
+3. Add Java Code
+    ```java
+    mAdapter = new PagerAdapter(getSupportFragmentManager());
+    mViewPager.setAdapter(mAdapter);
+    mCircularIndicator.setupWithViewPager(mViewPager);
+    ```
 
 ## Compatibility
 
