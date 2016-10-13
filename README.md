@@ -1,4 +1,6 @@
 # CircularIndicator
+[![GitHub release](https://img.shields.io/github/release/hearsilent/CircularIndicator.svg?maxAge=2592000)](https://github.com/hearsilent/CircularIndicator)
+[![license](https://img.shields.io/github/license/hearsilent/CircularIndicator.svg?maxAge=2592000)](https://github.com/hearsilent/CircularIndicator/blob/master/LICENSE)
 
 CircularIndicator for ViewPager.
 
