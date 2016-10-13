@@ -40,7 +40,7 @@ I'd be really happy if you sent me links to your projects where you use my compo
 
 ## License
 
-MIT License
+    MIT License
 
     Copyright (c) 2016 HearSilent
 
