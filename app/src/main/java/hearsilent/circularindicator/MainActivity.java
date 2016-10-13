@@ -7,10 +7,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
 import android.view.View;
 
-import hearsilent.lib.circularindicator.CircularIndicator;
+import com.github.hearsilent.circularindicator.CircularIndicator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,20 +41,10 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void transformPage(View page, float position) {
 				int pageWidth = page.getWidth();
-				View textView = page.findViewById(R.id.textView);
+				View textView = page.findViewById(R.id.subTextView);
 				textView.setTranslationX(position * pageWidth);
 			}
 		});
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-			case android.R.id.home:
-				onBackPressed();
-				return true;
-		}
-		return false;
 	}
 
 	private class PagerAdapter extends FragmentPagerAdapter {

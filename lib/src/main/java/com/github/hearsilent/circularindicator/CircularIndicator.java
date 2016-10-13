@@ -1,4 +1,4 @@
-package hearsilent.lib.circularindicator;
+package com.github.hearsilent.circularindicator;
 
 import android.content.Context;
 import android.content.res.Resources;
