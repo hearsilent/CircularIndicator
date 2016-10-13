@@ -13,7 +13,7 @@ CircularIndicator for ViewPager.
 
 1. Include the library as local library project.
     ```
-    compile 'com.yalantis:ucrop:2.2.0'
+    compile 'com.github.hearsilent.circularindicator:CircularIndicator:1.0.0'
     ```
 
 2. Add CircularIndicator to Layout
